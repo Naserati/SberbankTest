@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/resources/"}, glue = {"ru.aplana.autotests"},
         plugin = {
-                "AllureReporter",
+                "ru.aplana.autotests.util.AllureReporter",
         }
 )
 
